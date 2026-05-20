@@ -1,0 +1,74 @@
+# Node-RED/Node.js
+node_modules/
+npm-debug.log
+npm-error.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+out/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Runtime/Temporary files
+*.tmp
+*.log
+*.pid
+*.seed
+*.pid.lock
+.tmp/
+temp/
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Node-RED backup/restore
+.config.nodes.json~
+flows_backup.json
+lib/
+
+# Siemens/IIoT specific
+*.bak
+*.backup
+.credentials
+credentials.json
+
+# Dependencies
+node_modules/
+
+# Optional npm cache
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.cache
+.parcel-cache
+.next
+out
+
